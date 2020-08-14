@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class TrabalhandoComOperadoresLogicos {
@@ -11,7 +13,7 @@ public class TrabalhandoComOperadoresLogicos {
 
         int idade = scanner.nextInt();
 
-        if(idade >= 16 && idade <= 17 && idade > 60) {
+        if( (idade >= 16 && idade <= 17)  || idade > 60) {
             System.out.println("voto facultativo");
         }  else if (idade >= 18 && idade <= 60) {
             System.out.println("Voto obrigatório");

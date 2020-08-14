@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class TrabalhandoComOperadoresRelacionais {
@@ -21,12 +23,16 @@ public class TrabalhandoComOperadoresRelacionais {
          igualdade:         ==
 */
 
+//
+//        if ( senha.length()  < 8) {
+//            System.out.println("Senha precisa ter no minimo 8 caracteres");
+//        }
+//        else {
+//            System.out.println("Tudo certo");
+//        }
 
-        if ( senha.length()  < 8) {
-            System.out.println("Senha precisa ter no minimo 8 caracteres");
-        }
-        else {
-            System.out.println("Tudo certo");
-        }
+        boolean ehMaior =  !(senha.length()  < 8);
+
+        System.out.println(ehMaior);
     }
 }

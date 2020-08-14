@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class TrabalhandoComInteiros {
@@ -8,10 +10,12 @@ public class TrabalhandoComInteiros {
         Scanner scanner = new Scanner(System.in);
         int senha = scanner.nextInt();
 
-        if(senha == 123) {
-            System.out.println("ok, tudo certo");
-        }else {
-            System.out.println("ops, senha inválida");
+        if(senha != 123) {
+            System.out.println("ok, senha válida");
+        } else {
+            System.out.println("tente novamente");
         }
+
+
     }
 }
